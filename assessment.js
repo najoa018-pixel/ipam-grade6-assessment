@@ -1,7 +1,7 @@
 const TEST=document.body.dataset.test;
 const cfg=TEST==="TOLI"
-?{title:"TOLI 학습유형검사",subtitle:"자신의 학습유형과 학습 과정에서 나타나는 다양한 특성을 살펴보는 검사입니다.",items:"https://ipam-grade6-test.floot.app/toli-items.json",scale:[["1","전혀 아니다"],["2","아니다"],["3","그렇다"],["4","매우 그렇다"]],primary:"#EC6B8C",primary2:"#F6A26B",soft:"#FFF0F4"}
-:{title:"BFI 성격5요인검사",subtitle:"자신의 성격 특성과 정서·적응 관련 특징을 살펴보는 검사입니다.",items:"https://ipam-grade6-test.floot.app/bfi-items.json",scale:[["1","전혀 아니다"],["2","다소 아니다"],["3","중간이다"],["4","조금 그렇다"],["5","매우 그렇다"]],primary:"#3F8F5B",primary2:"#78B77A",soft:"#ECF7EF"};
+?{title:"TOLI 학습유형검사",subtitle:"자신의 학습유형과 학습 과정에서 나타나는 다양한 특성을 살펴보는 검사입니다.",items:"../toli-items.json",scale:[["1","전혀 아니다"],["2","아니다"],["3","그렇다"],["4","매우 그렇다"]],primary:"#EC6B8C",primary2:"#F6A26B",soft:"#FFF0F4"}
+:{title:"BFI 성격5요인검사",subtitle:"자신의 성격 특성과 정서·적응 관련 특징을 살펴보는 검사입니다.",items:"../bfi-items.json",scale:[["1","전혀 아니다"],["2","다소 아니다"],["3","중간이다"],["4","조금 그렇다"],["5","매우 그렇다"]],primary:"#3F8F5B",primary2:"#78B77A",soft:"#ECF7EF"};
 const SUPABASE_URL="https://eoieiribkthxlibgttco.supabase.co";
 const SUPABASE_KEY="sb_publishable_TE6OnQm_G35ah-yThH_RbA_U0PXph5P";
 const app=document.getElementById("app");
